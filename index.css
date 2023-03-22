@@ -1,0 +1,73 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.Container{
+  width: 1200px;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 15px;
+}
+header{
+  text-align: center;
+}
+.logo-img{
+  width: 270px;
+  height: 130px;
+  margin-top: 100px;
+}
+.logo-text{
+  color: lime;
+  font-family: cursive;
+}
+nav{
+  width: 1000px;
+  height: 40px;
+  background: solid;
+  background-color: lime;
+  margin:auto;
+  margin-top: -15px;
+  text-align: center;
+}
+nav > button{
+  margin-top: 10px;
+}
+.Utenti{
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  margin-top: 25px;
+  color: white;
+  font-family: cursive;
+}
+.NomeUtenti{
+  width: 900px;
+  height: 150px;
+  margin-bottom: -20px;
+}
+.NomeUtenti > p{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+#CaricaGino{
+  width: 40%;
+  height: 20%;
+  background: solid;
+  background-color: sandybrown;
+  border-radius: 5px;
+}
+#CaricaMike{
+  width: 70%;
+  height: 20%;
+  background: solid;
+  background-color: lime;
+  border-radius: 5px;
+}
+#CaricaFede{
+  width: 20%;
+  height: 20%;
+  background: solid;
+  background-color: brown;
+  border-radius: 5px;
+}
